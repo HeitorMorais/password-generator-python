@@ -20,4 +20,4 @@ def generate_password(lenght: int, useLowerCase: bool, useNumbers: bool, useSpec
         password += choice(pool)   
         lenght -= 1
 
-    print(password)
+    return password
