@@ -6,4 +6,4 @@
 # 5 - auto fill password
 from password_generator import generate_password
 
-generate_password(lenght=10, useCapital=True, useNumbers=True)
+generate_password(lenght=20, useLowerCase=True, useCapital=True, useNumbers=True, useSpecial=True)
